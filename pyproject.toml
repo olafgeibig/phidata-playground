@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-phidata = "^2.5.4"
+phidata = {extras = ["docker"], version = "^2.5.5"}
 python-dotenv = "^1.0.1"
 openai = "^1.51.2"
 fastapi = {extras = ["standard"], version = "^0.115.2"}
